@@ -7,7 +7,7 @@ content-type: application/json
 {
     "id": 1,
     "name": "Testing 1 :)",
-    "dueDate": "2025-11-05",
+    "dueDate": "2025-11-06",
     "isCompleted": true
 }
 ###
@@ -17,7 +17,7 @@ content-type: application/json
 {
     "id": 2,
     "name": "Testing 2 :)",
-    "dueDate": "2025-11-05",
+    "dueDate": "2025-11-06",
     "isCompleted": false
 }
 
