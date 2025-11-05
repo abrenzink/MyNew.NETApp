@@ -1,0 +1,44 @@
+GET http://localhost:5150/todos
+
+###
+POST http://localhost:5150/todos
+content-type: application/json
+
+{
+    "id": 1,
+    "name": "Testing 1 :)",
+    "dueDate": "2025-11-05",
+    "isCompleted": true
+}
+###
+POST http://localhost:5150/todos
+content-type: application/json
+
+{
+    "id": 2,
+    "name": "Testing 2 :)",
+    "dueDate": "2025-11-05",
+    "isCompleted": false
+}
+
+###
+GET http://localhost:5150/todos/1
+
+###
+GET http://localhost:5150/todos/2
+
+###
+GET http://localhost:5150/todos/3
+
+###
+GET http://localhost:5150/todos
+
+###
+DELETE http://localhost:5150/todos/1
+
+###
+GET http://localhost:5150/tasks/1
+
+###
+GET http://localhost:5150/tasks/2
+
