@@ -58,8 +58,4 @@ app.MapDelete("/todos/{id}", (int id) =>
 
 app.Run();
 
-internal class nameof
-{
-}
-
 public record Todo(int Id, string Name, DateTime DueDate, bool IsCompleted);
